@@ -10,9 +10,6 @@ import { applyFilters } from '@wordpress/hooks';
 /**
  * Internal dependencies
  */
-/**
- * Internal dependencies
- */
 import { store as blockEditorStore } from '../../store';
 
 /**
