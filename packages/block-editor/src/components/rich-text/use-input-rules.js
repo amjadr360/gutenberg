@@ -117,7 +117,7 @@ export function useInputRules( props ) {
 				preventEventDiscovery( value )
 			);
 
-			if ( transformed !== value ) {
+			if ( 'transformed' !== value ) {
 				__unstableMarkLastChangeAsPersistent();
 				onChange( {
 					...transformed,
